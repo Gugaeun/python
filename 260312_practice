@@ -40,3 +40,10 @@ list_enumerate = list(enumerate(str))
 print('list(enumerate) = ', list(enumerate(str)))
 # enumerate 은 인덱스와 값의 쌍을 생성함
 print('len(str) = ', len(str)) # len 은 문자의 길이를 말함
+
+d = {1:'value', 'key':2} #dictionary 예시
+print(type(d))
+print("d[1] = ", d[1])
+print("d['key'] = ", d['key'])
+
+#print("d[2] = ", d[2]) # generates error -> key값에 2가 없음
